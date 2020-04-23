@@ -1,0 +1,47 @@
+/* Colors to use */
+/* #397fa6 - blue*/
+/* #e3d4a3 - sand*/
+/* #d88981 - rose*/
+/* #e5a35b - mustard*/
+/* #a28c87 - grey*/
+
+body{
+    background-color: #397fa6;
+    color: black;
+    font-size: 20px;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+.container{
+    width: 90%;
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-template-rows: 10vw 70vw 10vw;
+    border: 2px solid blue;
+    grid-template-areas: 
+    "hd hd hd hd"
+    "sd main main main"
+    "ft ft ft ft";
+    gap: 30px 30px;
+}
+
+.box{
+    border: 1px solid red;
+    background-color: #e3d4a3;
+}
+
+.header{
+    grid-area: hd;
+}
+.footer{
+    grid-area: ft;
+}
+.sidebar{
+    grid-area: sd;
+}
+.content{
+    grid-area: main;
+}
