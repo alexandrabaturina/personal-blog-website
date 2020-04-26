@@ -11,6 +11,8 @@
     padding: 0px;
 } */
 
+@import url("styles/navbar.css");
+
 * {
     box-sizing: border-box;
     margin: 0px;
