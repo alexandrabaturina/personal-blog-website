@@ -2,46 +2,124 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <link href="./css/main.css" rel="stylesheet">
-  <title>My Travel Blog | Welcome</title>
-  <meta name="author" content="Alexandra Baturina">
-  <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <div class="container">
-    <header class="header">
-      MY TRAVEL BLOG
-      <nav>
-        <ul>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">About Me</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+        <header class="header">
+            <div id="site_name">My Travel Blog</div>
+            <nav>
+                <ul class="nav_menu">
+                    <li a href="#">Blog</li>
+                    <li a href="#">Gallery</li>
+                    <li a href="#">About Me</li>
+                </ul>
+            </nav>
+        </header>
 
-    <div class="content">
-      BLOG POSTS
+
+        <section class="content">
+            <div class="post_card">
+                <img src="img/great_salt_lake.jpg" class="post_card_image">
+                <div class="post_card_content">
+                    <h2>Post card 1</h2>
+                    <hr>
+                    <p>Reading time</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nihil, modi numquam
+                        distinctio
+                        deleniti quaerat quia magni atque, odio optio sed quasi error repudiandae magnam adipisci illum
+                        eius? Soluta, voluptatum?</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <div class="post_card">
+                <img src="img/yellowstone.jpg" class="post_card_image">
+                <div class="post_card_content">
+                    <h2>Post card 2</h2>
+                    <hr>
+                    <p>Reading time</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nihil, modi numquam
+                        distinctio
+                        deleniti quaerat quia magni atque, odio optio sed quasi error repudiandae magnam adipisci illum
+                        eius? Soluta, voluptatum?</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <div class="post_card">
+                <img src="img/north_cascades.jpg" class="post_card_image">
+                <div class="post_card_content">
+                    <h2>Post card 3</h2>
+                    <hr>
+                    <p>Reading time</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nihil, modi numquam
+                        distinctio
+                        deleniti quaerat quia magni atque, odio optio sed quasi error repudiandae magnam adipisci illum
+                        eius? Soluta, voluptatum?</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <div class="post_card">
+                <img src="img/newport.jpg" class="post_card_image">
+                <div class="post_card_content">
+                    <h2>Post card 4</h2>
+                    <hr>
+                    <p>Reading time</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nihil, modi numquam
+                        distinctio
+                        deleniti quaerat quia magni atque, odio optio sed quasi error repudiandae magnam adipisci illum
+                        eius? Soluta, voluptatum?</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+        </section>
+        <aside class="sidebar">
+            <h2>Archive</h2>
+            <h3>By year</h3>
+            <ul>
+                <li>2020</li>
+                <li>2019</li>
+                <li>2018</li>
+                <li>2017</li>
+                <li>2016</li>
+            </ul>
+            <h3>By state</h3>
+            <ul>
+                <li>Washington</li>
+                <li>Oregon</li>
+                <li>Utah</li>
+                <li>Montana</li>
+                <li>Idaho</li>
+                <li>California</li>
+            </ul>
+        </aside>
+        <aside class="search_area">
+            <div>
+                <input type="text" class="search_input" placeholder="Search this site...">
+                <!-- <span class="fa fa-search fa-rotate-90"></span> -->
+                <button>Search</button>
+            </div>
+        </aside>
+        <footer class="footer">
+            <div>
+                <ul class="social_menu">
+                    <li><a href="#" class="fa fa-facebook-square"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-twitter-square"></a></li>
+                    <li><a href="#" class="fa fa-linkedin-square"></a></li>
+                </ul>
+            </div>
+            <div>&copy; Copyright 2020</div>
+            <div class="contact_me">
+                <a href="#" class="fa fa-envelope"></a>
+                <span></span>Contact Me</span>
+            </div>
+        </footer>
     </div>
-
-    <div class="sidebar">
-      ARCHIVES
-      <ul>
-        <li><a href="#">Post 1</a></li>
-        <li><a href="#">Post 2</a></li>
-        <li><a href="#">Post 3</a></li>
-        <li><a href="#">Post 4</a></li>
-      </ul>
-    </div>
-
-    <div class="footer">
-      FOOTER
-    </div>
-
-  </div>
-
 </body>
 
 </html>
