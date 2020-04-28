@@ -25,12 +25,15 @@ body {
     font-size: 14px;
     color: black;
     margin: 0px;
+    line-height: 1.4em;
 }
 
 h1,
 h2,
 h3 {
     font-family: 'Montserrat', serif;
+    color: #3f4b6e;
+    font-weight: 800;
 }
 
 .container {
@@ -75,6 +78,7 @@ h3 {
     margin: 20px;
     padding: 20px;
     text-align: left;
+    line-height: 1.5em;
 }
 
 .search_area {
@@ -116,33 +120,6 @@ h3 {
 }
 
 /* post cards */
-/* 
-.post_card {
-    border: 2px solid #3f4b6e;
-    background-color: #e3e8ee;
-    max-height:250px;
-    width: 90%;
-    text-align: justify;
-    border-radius: 20px;
-    display: flex;
-    margin-bottom: 20px;
-}
-
-
-.post_card_image {
-    height: 200px;
-    width: auto;
-    margin: 20px;
-}
-
-.post_card_content {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.post_card_content h2 {
-    color: #3f4b6e;
-} */
 
 .content > div {
     border: 2px solid #a5b4b9;
@@ -166,7 +143,6 @@ h3 {
 }
 
 .post_card h2 {
-    color: #3f4b6e;
     font-size: 1.4em;
 }
 
@@ -240,3 +216,24 @@ button {
 }
 
 /*sidebar*/
+.sidebar a {
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #3f4b6e;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.sidebar h2 {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.sidebar h3 {
+    font: 1.2em;
+    font-weight: 600;
+}
