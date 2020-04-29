@@ -1,5 +1,3 @@
-@import url(https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat:wght@500;700;800&preview.text=US+Travel+Blog&preview.text_type=custom);
-
 /* Colors to use
 #686573 dark
 #71879a blue
@@ -26,6 +24,10 @@ body {
     color: black;
     margin: 0px;
     line-height: 1.4em;
+}
+footer {
+    font-family: 'Montserrat', serif;
+    font-weight: 800;
 }
 
 h1,
@@ -85,7 +87,9 @@ h3 {
     grid-area: se;
     border-radius: 20px;
     text-align: center;
-    margin: 20px;
+    left: 10%;
+    right: 10%;
+    top: 50%;
 }
 
 .footer {
@@ -117,6 +121,7 @@ h3 {
 .nav_menu li:hover {
     background-color: #f1ece9;
     color: #2a5d68;
+    cursor: pointer;
 }
 
 /* post cards */
@@ -146,7 +151,7 @@ h3 {
     font-size: 1.4em;
 }
 
-.fa-calendar {
+.fa-calendar-o {
     padding-right: 5px;
 }
 
@@ -156,13 +161,18 @@ h3 {
 }
 
 .read_button {
-    border: 1px solid #a5b4b9;
+    border: 2px solid #3f4b6e;
+    border-radius: 5px;
+    width: 200px;
+    height: 2em;
 }
 
 .read_button:hover {
-    background-color: #a5b4b9;
+    background-color: #3f4b6e;
+    color: #ebedef;
+    cursor: pointer;
+    font-weight: 700;
 }
-
 
 
 /* footer */
@@ -187,32 +197,14 @@ h3 {
     text-decoration: none;
     color: #f1ece9;
     background-color: #2a5d68;
+    margin-left: 10px;
 }
 
 .contact_me {
-    width: 100px;
+    width: 110px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-}
-
-/* seach */
-input[type="text"] {
-    width: 230px;
-    height: 28px;
-}
-
-button {
-    width: 50px;
-    height: 25px;
-    color: black;
-}
-
-.search_button {
-    border: 2px solid #7dbbb9;
-    box-shadow: 2px 2px #71879a;
-    border-radius: 5px;
-    width: 100px;
-    height: 30px;
 }
 
 /*sidebar*/
@@ -237,3 +229,46 @@ button {
     font: 1.2em;
     font-weight: 600;
 }
+
+/* search */
+.search_bar {
+    margin: 20px;
+    display: flex;
+}
+
+.search_input {
+    width: 100%;
+    border: 2px solid #3f4b6e;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    background-color: #f1ece9;
+    color: black;
+    outline: none;
+}
+
+.search_input::placeholder{
+    color: #b4b4af;
+}
+
+.search_input:focus {
+    background: #d6d7dc;
+}
+
+.search_button {
+    width: 40px;
+    height: 34px;
+    border: 2px solid #3f4b6e;
+    background: #3f4b6e;
+    text-align: center;
+    color: #f1ece9;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+  }
+
+  .search_button:hover {
+    color: #d6d7dc;
+  }
