@@ -63,6 +63,9 @@ h3 {
       "ft";
 }
 
+.blog-post {
+    grid-area: main;
+}
 .header {
     grid-area: hd;
     background-color: #2a5d68;
@@ -80,6 +83,7 @@ h3 {
     grid-gap: 2vw;
     justify-items: center;
 }
+
 .sidebar {
     grid-area: sd;
     background-color: #d6d7dc;
