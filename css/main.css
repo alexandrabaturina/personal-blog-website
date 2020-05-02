@@ -65,6 +65,8 @@ h3 {
 
 .blog-post {
     grid-area: main;
+    text-align: justify;
+    padding-left: 50px;
 }
 .header {
     grid-area: hd;
@@ -311,10 +313,106 @@ h3 {
     outline: none;
   }
 
-  .search-button:hover {
+.search-button:hover {
     color: #d6d7dc;
-  }
+}
 
+  /* post */
+
+.post h1 {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+}
+.post h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+.post h3 {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 20px;
+}
+.post p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.post-author {
+    width: 100%;
+    background-color: #d8d3d0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar {
+    width: 10%;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.author-info {
+    width: 80%;
+    font-size: 1.1em;
+}
+
+.author-info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.post-quote {
+    color: #231E28;
+    /* font-family: 'Kaushan Script', cursive; */
+    font-family: 'Kalam', cursive;
+    font-size: 1.1em;
+    padding: 30px 30px 30px 60px;
+    border-left: 8px solid #7fb9c2;
+    background: #d8d3d0;
+    font-weight: bold;
+    position: relative;
+
+}
+
+cite {
+    font-size: 0.8em;
+}
+
+.post-quote:before {
+    content: "\201C";
+    font-family: Arial;
+    color: #7fb9c2;
+    font-size: 70px;
+    position: absolute; 
+    left: 15px;
+    top: 30px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+
+}
+
+img {
+    width: 60%;
+    height: auto;
+    align-self: center;
+    padding-top: 20px;
+}
+
+.image figcaption {
+    font-style: italic;
+    align-self: center;
+}
 
  /* small desktops*/
 @media (min-width: 550px) and (max-width: 768px) { 
@@ -432,3 +530,4 @@ h3 {
         height: 155px;
     }
 }
+
