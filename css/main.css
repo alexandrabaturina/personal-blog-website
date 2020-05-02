@@ -69,7 +69,10 @@ h3 {
 .blog-post {
     grid-area: main;
     text-align: justify;
-    padding-left: 50px;
+    /* padding-left: 50px; */
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
 .header {
     grid-area: hd;

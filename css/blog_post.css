@@ -1,25 +1,27 @@
-  /* post */
-
-.post h1 {
+  /* blog post */
+.post h1,
+.post h2,
+.post h3 {
     text-align: center;
-    font-size: 2em;
     padding: 20px;
+
+} 
+.post h1 {
+    line-height: 1em;
+    font-size: 2em;
+    
 }
 
 .post h2 {
-    text-align: center;
     font-size: 1.5em;
-    padding: 20px;
 }
 
 .post h3 {
-    text-align: center;
     font-size: 1.3em;
-    padding: 20px;
 }
+
 .post p {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     font-size: 1.1em;
 }
 
@@ -28,24 +30,24 @@
     background-color: #d8d3d0;
     margin-top: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .avatar {
-    width: 10%;
-    text-align: center;
+    align-self: center;
     font-size: 30px;
-    padding: 30px;
+    padding: 20px;
 }
 
 .author-info {
     width: 80%;
+    align-self: center;
     font-size: 1.1em;
+    padding: 10px;
 }
 
-.author-info {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.author-info p {
+    text-align: justify;
 }
 
 .post-quote {
@@ -57,7 +59,6 @@
     background: #d8d3d0;
     font-weight: bold;
     position: relative;
-
 }
 
 cite {
@@ -80,7 +81,6 @@ cite {
     justify-content: center;
     width: 100%;
     padding-top: 10px;
-
 }
 
 img {
@@ -93,4 +93,18 @@ img {
 .image figcaption {
     font-style: italic;
     align-self: center;
+    text-align: center;
 }
+
+.welcome-text {
+    font-weight: 700;
+    align-self: center;
+}
+
+/* medium and large screens */
+
+@media (min-width: 769px) {
+    .post-author {
+        flex-direction: row;
+    }
+} 
