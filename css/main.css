@@ -1,22 +1,14 @@
 /* Colors to use
-#686573 dark
-#71879a blue
-#b1c5d4 blue grey
 #d6d7dc light grey
-#d8b9aa beige
-
 #3f4b6e dark blue
-#2a5d68 dark turquos
-#164f55 dark turquos II
-#7fb9c2 light turquose
-#7dbbb9 turquose
-#d8d3d0 light light beige
-#e7f0ed almost white
+#2a5d68 dark turquoise
+#7fb9c2 turquoise
+#d8d3d0 light turquoise
+#d8d3d0 beige
+#ebedef light blue
+##f1ece9 almost white (for bg)
+*/ 
 
-#770f10 bordo
-#d44a1e orange
-#cab7ab brown-grey
-*/
 
 @import "post_card.css";
 @import "blog_post.css";

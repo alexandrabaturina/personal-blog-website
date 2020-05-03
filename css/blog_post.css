@@ -1,4 +1,5 @@
   /* blog post */
+  
 .post h1,
 .post h2,
 .post h3 {
@@ -9,7 +10,6 @@
 .post h1 {
     line-height: 1em;
     font-size: 2em;
-    
 }
 
 .post h2 {
