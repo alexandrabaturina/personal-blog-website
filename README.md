@@ -8,5 +8,9 @@ The goal of the project is to create a styled blow website (homepage and blog po
 The code is formatted according to following rules.
 * [Udacity Frontend Nanodegree Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html) – for HTML files
 * [Udacity Frontend Nanodegree Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html) – for CSS files
+## Running
+The following pages can be opened in the browser.
+* *index.html*
+* *blog_post.html*
 ## Authors
 Alexandra Baturina
