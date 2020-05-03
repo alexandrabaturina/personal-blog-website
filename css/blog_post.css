@@ -14,10 +14,12 @@
 
 .post h2 {
     font-size: 1.5em;
+    font-style: italic;
 }
 
 .post h3 {
     font-size: 1.3em;
+    font-style: italic;
 }
 
 .post p {
@@ -99,6 +101,8 @@ img {
 .welcome-text {
     font-weight: 700;
     align-self: center;
+    text-decoration: underline;
+    font-style: italic;
 }
 
 /* medium and large screens */
