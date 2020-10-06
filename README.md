@@ -12,6 +12,7 @@ The project meets the following requirements:
   * Using CSS imports
 * **Design**
   * Custom design for typography with at least 3 unique properties for each typography selector
+  * Using [Font Awesome](https://www.w3schools.com/icons/fontawesome_icons_intro.asp) and [Google Fonts](https://fonts.google.com/) libraries
   * Using multiple web components
     * Images
     * Image caption
@@ -26,7 +27,7 @@ The project meets the following requirements:
   * Using proper CSS & HTML formatting and style. The code quality conforms the following documents.
     * [Udacity Frontend Nanodegree Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html) – for HTML files
     * [Udacity Frontend Nanodegree Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html) – for CSS files
-## Running
+## Getting Started
 To run the project locally,
 1. Clone this repo.
 2. ```cd``` into project directory.
