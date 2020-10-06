@@ -18,6 +18,16 @@ The project meets the following requirements:
     * Image caption
     * Buttons
     * Card
+  * The following pages are present:
+  
+    * Blog homepage
+    
+    ![image](https://user-images.githubusercontent.com/53233637/95266085-5633b080-07e7-11eb-9314-0a78d9e9e779.png)
+    
+    * Blog post page
+    
+    ![image](https://user-images.githubusercontent.com/53233637/95266312-c6dacd00-07e7-11eb-8c4e-353d53a659ea.png)
+    
 * **Layout**
   * Using *Flexbox* based layout
   * Using *Grid* based layout
