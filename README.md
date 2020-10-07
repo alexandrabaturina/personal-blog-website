@@ -18,15 +18,16 @@ The project meets the following requirements:
     * Image caption
     * Buttons
     * Card
+  * The general pattern of the webpage contains author info
   * The following pages are present:
   
     * Blog homepage
     
-    ![image](https://user-images.githubusercontent.com/53233637/95266085-5633b080-07e7-11eb-9314-0a78d9e9e779.png)
+    ![image](https://user-images.githubusercontent.com/53233637/95379242-fb0ec600-0899-11eb-982e-b1ed49a08577.png)
     
     * Blog post page
     
-    ![image](https://user-images.githubusercontent.com/53233637/95266312-c6dacd00-07e7-11eb-8c4e-353d53a659ea.png)
+    ![image](https://user-images.githubusercontent.com/53233637/95379397-327d7280-089a-11eb-8bda-74f477299c2e.png)
     
 * **Layout**
   * Using *Flexbox* based layout
