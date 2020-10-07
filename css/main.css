@@ -61,7 +61,6 @@ h3 {
 .blog-post {
     grid-area: main;
     text-align: justify;
-    /* padding-left: 50px; */
     padding-left: 30px;
     padding-right: 30px;
 
@@ -95,6 +94,24 @@ h3 {
     justify-self: center;
 
 }
+
+
+.author-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.author {
+    padding-top: 10px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
 
 .search-area {
     width: 80%;
